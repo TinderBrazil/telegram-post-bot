@@ -1,5 +1,5 @@
 # Information Security News Telegram Bot
-This is the code that powers [@ISNewsBot](https://t.me/ISNewsBot) which allows anyone to provide moderated content to [Information Security News](https://t.me/InformationSecurity)
+This is the code that powers [@ISNewsBot](https://t.me/ISNewsBot) for [Information Security News](https://t.me/InformationSecurity)
 
 
 ## ready
