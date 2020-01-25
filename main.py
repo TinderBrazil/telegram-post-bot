@@ -78,15 +78,10 @@ def process_command(bot, update):
     command = update.message.text[1:].replace(CONFIG['Username'], ''
             ).lower()
     if command == 'start':
-        bot.send_message(chat_id=update.message.chat_id,text="""Hello this bot will only accept text and links.
-Please do not abuse the bot or we may abuse you...
-If your submission is approved you will receive a confirmation""")
+        bot.send_message(chat_id=update.message.chat_id,text='Send me IT related content and it may appear in @informationsecurity.\n' + 'Please do not abuse the bot or we may abuse you...\n' + 'If your submission is approved you will receive a confirmation\n' + 'More info about this bot at https://git.io/JvqZu')
         return
     if command == 'version':
-        bot.send_message(chat_id=update.message.chat_id,text='Telegram Submission Bot\n' + 'https://github.com/FlynnLives/telegram-post-bot')
-        return
-        if command == 'start':
-        bot.send_message(chat_id=update.message.chat_id,text='Send me IT related content and it may appear in @informationsecurity')
+        bot.send_message(chat_id=update.message.chat_id,text='Telegram Submission Bot\n' + 'https://git.io/JvqZu')
         return
     if update.message.from_user.id == CONFIG['Admin']:
         if command == 'setgroup':
