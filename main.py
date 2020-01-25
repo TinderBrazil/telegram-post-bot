@@ -83,7 +83,7 @@ Please do not abuse the bot or we may abuse you...
 If your submission is approved you will receive a confirmation""")
         return
     if command == 'version':
-        bot.send_message(chat_id=update.message.chat_id,text='Telegram Submission Bot\n' + 'https://github.com/flynnlives/telegram-submission-bot')
+        bot.send_message(chat_id=update.message.chat_id,text='Telegram Submission Bot\n' + 'https://github.com/FlynnLives/telegram-post-bot')
         return
     if update.message.from_user.id == CONFIG['Admin']:
         if command == 'setgroup':
