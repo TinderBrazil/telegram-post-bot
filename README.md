@@ -23,11 +23,10 @@ Enter `/setgroup` in the group you want to use to review posts
 python main.py
 ```
 
-## use
+## How to interact
 ### Contributions
 Send the message to the robot, only text, or your message will be ignored
 
-## use
 ### Moderators 
 Approve or Reject the message, its that simple
 
