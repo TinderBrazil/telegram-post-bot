@@ -85,6 +85,9 @@ If your submission is approved you will receive a confirmation""")
     if command == 'version':
         bot.send_message(chat_id=update.message.chat_id,text='Telegram Submission Bot\n' + 'https://github.com/FlynnLives/telegram-post-bot')
         return
+        if command == 'start':
+        bot.send_message(chat_id=update.message.chat_id,text='Send me IT related content and it may appear in @informationsecurity')
+        return
     if update.message.from_user.id == CONFIG['Admin']:
         if command == 'setgroup':
             CONFIG['Group_ID'] = update.message.chat_id
